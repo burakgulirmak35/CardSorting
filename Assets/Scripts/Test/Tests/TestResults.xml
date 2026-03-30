@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="40" result="Passed" total="40" passed="40" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0,0643108">
+  <test-suite type="TestSuite" id="1048" name="cardsorting" fullname="cardsorting" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.064311" total="40" passed="40" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1042" name="Assembly-CSharp.dll" fullname="C:/Users/BURAK GULIRMAK/Desktop/Card Sorting/Library/ScriptAssemblies/Assembly-CSharp.dll" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.056840" total="40" passed="40" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24368" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1043" name="ZyngaCardGame" fullname="ZyngaCardGame" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.054407" total="40" passed="40" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1044" name="Tests" fullname="ZyngaCardGame.Tests" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.052407" total="40" passed="40" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="CardSorterTests" fullname="ZyngaCardGame.Tests.CardSorterTests" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.049569" total="40" passed="40" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1037" name="CardData_AcePoints_Is1" fullname="ZyngaCardGame.Tests.CardSorterTests.CardData_AcePoints_Is1" methodname="CardData_AcePoints_Is1" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="135567987" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.009299" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="CardData_DifferentSuit_NotEqual" fullname="ZyngaCardGame.Tests.CardSorterTests.CardData_DifferentSuit_NotEqual" methodname="CardData_DifferentSuit_NotEqual" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1107306477" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.001690" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="CardData_FaceCards_Are10Points" fullname="ZyngaCardGame.Tests.CardSorterTests.CardData_FaceCards_Are10Points" methodname="CardData_FaceCards_Are10Points" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="941922527" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000156" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="CardData_NumberCards_MatchFaceValue" fullname="ZyngaCardGame.Tests.CardSorterTests.CardData_NumberCards_MatchFaceValue" methodname="CardData_NumberCards_MatchFaceValue" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1313924262" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000197" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="CardData_SameSuitAndRank_AreEqual" fullname="ZyngaCardGame.Tests.CardSorterTests.CardData_SameSuitAndRank_AreEqual" methodname="CardData_SameSuitAndRank_AreEqual" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="195103802" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000112" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="EvaluateInPlace_AdjacentRun_GroupedCorrectly" fullname="ZyngaCardGame.Tests.CardSorterTests.EvaluateInPlace_AdjacentRun_GroupedCorrectly" methodname="EvaluateInPlace_AdjacentRun_GroupedCorrectly" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="335794743" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.001905" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="EvaluateInPlace_AdjacentSet_GroupedCorrectly" fullname="ZyngaCardGame.Tests.CardSorterTests.EvaluateInPlace_AdjacentSet_GroupedCorrectly" methodname="EvaluateInPlace_AdjacentSet_GroupedCorrectly" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1759028539" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000838" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="EvaluateInPlace_CardDraggedIntoMiddleOfRun_BreaksGroup" fullname="ZyngaCardGame.Tests.CardSorterTests.EvaluateInPlace_CardDraggedIntoMiddleOfRun_BreaksGroup" methodname="EvaluateInPlace_CardDraggedIntoMiddleOfRun_BreaksGroup" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="475380751" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000359" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="EvaluateInPlace_EmptyHand_ReturnsZeroes" fullname="ZyngaCardGame.Tests.CardSorterTests.EvaluateInPlace_EmptyHand_ReturnsZeroes" methodname="EvaluateInPlace_EmptyHand_ReturnsZeroes" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1396156014" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000136" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="EvaluateInPlace_RunBrokenByInterleavedCard_NotGrouped" fullname="ZyngaCardGame.Tests.CardSorterTests.EvaluateInPlace_RunBrokenByInterleavedCard_NotGrouped" methodname="EvaluateInPlace_RunBrokenByInterleavedCard_NotGrouped" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="114000116" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000205" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="EvaluateInPlace_SetBrokenByInterleavedCard_NotGrouped" fullname="ZyngaCardGame.Tests.CardSorterTests.EvaluateInPlace_SetBrokenByInterleavedCard_NotGrouped" methodname="EvaluateInPlace_SetBrokenByInterleavedCard_NotGrouped" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1619101664" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000200" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="EvaluateInPlace_TwoCardsOnly_NoGroupFormed" fullname="ZyngaCardGame.Tests.CardSorterTests.EvaluateInPlace_TwoCardsOnly_NoGroupFormed" methodname="EvaluateInPlace_TwoCardsOnly_NoGroupFormed" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="464618565" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000155" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="SortResult_GetFlatOrder_AllCardsPresent" fullname="ZyngaCardGame.Tests.CardSorterTests.SortResult_GetFlatOrder_AllCardsPresent" methodname="SortResult_GetFlatOrder_AllCardsPresent" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="798369975" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.007576" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="SortResult_GetFlatOrder_GroupsBeforeUnmatched" fullname="ZyngaCardGame.Tests.CardSorterTests.SortResult_GetFlatOrder_GroupsBeforeUnmatched" methodname="SortResult_GetFlatOrder_GroupsBeforeUnmatched" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="181322308" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000898" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="SortRun_AceIsLowOnly_QueenKingAceNotARun" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_AceIsLowOnly_QueenKingAceNotARun" methodname="SortRun_AceIsLowOnly_QueenKingAceNotARun" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1470035224" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000245" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="SortRun_DifferentSuitSameRanks_NotARun" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_DifferentSuitSameRanks_NotARun" methodname="SortRun_DifferentSuitSameRanks_NotARun" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="794231444" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000224" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="SortRun_ExactlyThreeConsecutive_FormsSingleGroup" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_ExactlyThreeConsecutive_FormsSingleGroup" methodname="SortRun_ExactlyThreeConsecutive_FormsSingleGroup" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="699468667" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000198" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="SortRun_LongRun_AllCardsGrouped" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_LongRun_AllCardsGrouped" methodname="SortRun_LongRun_AllCardsGrouped" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1138591104" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000262" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="SortRun_NoRun_ReturnsAllUnmatched" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_NoRun_ReturnsAllUnmatched" methodname="SortRun_NoRun_ReturnsAllUnmatched" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1275925745" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000221" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="SortRun_TestHand_DiamondsRunIs345" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_TestHand_DiamondsRunIs345" methodname="SortRun_TestHand_DiamondsRunIs345" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="733745164" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000413" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="SortRun_TestHand_FindsTwoGroups" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_TestHand_FindsTwoGroups" methodname="SortRun_TestHand_FindsTwoGroups" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="792223057" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000151" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="SortRun_TestHand_FourCardsUnmatched" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_TestHand_FourCardsUnmatched" methodname="SortRun_TestHand_FourCardsUnmatched" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1823529191" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000126" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SortRun_TestHand_SpadesRunIsAce234" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_TestHand_SpadesRunIsAce234" methodname="SortRun_TestHand_SpadesRunIsAce234" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="34347808" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.001832" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="SortRun_TwoCardsConsecutive_NotAGroup" fullname="ZyngaCardGame.Tests.CardSorterTests.SortRun_TwoCardsConsecutive_NotAGroup" methodname="SortRun_TwoCardsConsecutive_NotAGroup" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1134838620" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000269" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="SortSet_DuplicateSuit_ExcludedFromGroup" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_DuplicateSuit_ExcludedFromGroup" methodname="SortSet_DuplicateSuit_ExcludedFromGroup" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1624353073" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000913" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="SortSet_FourDifferentSuits_FormsSetOf4" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_FourDifferentSuits_FormsSetOf4" methodname="SortSet_FourDifferentSuits_FormsSetOf4" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="2007268744" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000272" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="SortSet_OnlyTwoMatchingCards_NotASet" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_OnlyTwoMatchingCards_NotASet" methodname="SortSet_OnlyTwoMatchingCards_NotASet" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="2133768925" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000207" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="SortSet_TestHand_AcesGroupFound" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_TestHand_AcesGroupFound" methodname="SortSet_TestHand_AcesGroupFound" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1123682492" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.001771" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="SortSet_TestHand_FindsTwoGroups" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_TestHand_FindsTwoGroups" methodname="SortSet_TestHand_FindsTwoGroups" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="793821395" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000164" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="SortSet_TestHand_FourCardsUnmatched" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_TestHand_FourCardsUnmatched" methodname="SortSet_TestHand_FourCardsUnmatched" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="372109859" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000200" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="SortSet_TestHand_FoursGroupHasAllFourSuits" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_TestHand_FoursGroupHasAllFourSuits" methodname="SortSet_TestHand_FoursGroupHasAllFourSuits" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="660925320" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000274" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="SortSet_ThreeDifferentSuits_FormsSingleSet" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSet_ThreeDifferentSuits_FormsSingleSet" methodname="SortSet_ThreeDifferentSuits_FormsSingleSet" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1247419027" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000249" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="SortSmart_AllCardsGrouped_ZeroUnmatchedPoints" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_AllCardsGrouped_ZeroUnmatchedPoints" methodname="SortSmart_AllCardsGrouped_ZeroUnmatchedPoints" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="97626462" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000538" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="SortSmart_NeverWorserThanRunOnly" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_NeverWorserThanRunOnly" methodname="SortSmart_NeverWorserThanRunOnly" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="105864957" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000426" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="SortSmart_NeverWorseThanSetOnly" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_NeverWorseThanSetOnly" methodname="SortSmart_NeverWorseThanSetOnly" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1515577098" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000429" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="SortSmart_NoGroupsPossible_UnmatchedEqualsHandTotal" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_NoGroupsPossible_UnmatchedEqualsHandTotal" methodname="SortSmart_NoGroupsPossible_UnmatchedEqualsHandTotal" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="955985658" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000375" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="SortSmart_TestHand_DoesNotPickSuboptimalPath" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_TestHand_DoesNotPickSuboptimalPath" methodname="SortSmart_TestHand_DoesNotPickSuboptimalPath" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1364809861" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000381" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="SortSmart_TestHand_FindsThreeGroups" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_TestHand_FindsThreeGroups" methodname="SortSmart_TestHand_FindsThreeGroups" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1574623099" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000306" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="SortSmart_TestHand_TwoCardsUnmatched" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_TestHand_TwoCardsUnmatched" methodname="SortSmart_TestHand_TwoCardsUnmatched" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1495955078" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000307" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="SortSmart_TestHand_UnmatchedPointsIs2" fullname="ZyngaCardGame.Tests.CardSorterTests.SortSmart_TestHand_UnmatchedPointsIs2" methodname="SortSmart_TestHand_UnmatchedPointsIs2" classname="ZyngaCardGame.Tests.CardSorterTests" runstate="Runnable" seed="1418693680" result="Passed" start-time="2026-03-30 03:47:48Z" end-time="2026-03-30 03:47:48Z" duration="0.000295" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/BURAK GULIRMAK/AppData/LocalLow/DefaultCompany/cardsorting\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

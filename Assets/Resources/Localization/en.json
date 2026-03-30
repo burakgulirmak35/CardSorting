@@ -1,0 +1,8 @@
+{
+  "entries": [
+    { "key": "warning_pass_or_take", "value": "Pass or take the discard card first" },
+    { "key": "warning_already_drew", "value": "You already drew a card, discard one" },
+    { "key": "warning_draw_first",   "value": "Draw a card first" },
+    { "key": "warning_not_your_turn", "value": "It's not your turn" }
+  ]
+}
